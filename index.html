@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>S.V Beauty Time - Premium Hair Salon & Beauty Studio - Limassol Cyprus</title>
+    <meta name="description" content="Premium hair salon and beauty studio in Limassol, Cyprus. Expert styling, coloring, and grooming services.">
+    <meta name="keywords" content="hair salon limassol, beauty studio cyprus, barbering, hair styling">
+    <meta name="author" content="HanuNova - https://hanunova.oneapp.dev/">
     
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -789,6 +792,49 @@
             color: rgba(255, 255, 255, 0.6);
         }
 
+        /* HANUNOVA CREDIT BADGE */
+        .dev-credit {
+            margin-top: 20px;
+            padding: 25px;
+            background: linear-gradient(135deg, rgba(59, 159, 143, 0.1), rgba(59, 159, 143, 0.05));
+            border: 1px solid rgba(59, 159, 143, 0.3);
+            border-radius: 8px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .dev-credit:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(59, 159, 143, 0.2);
+            border-color: var(--emerald);
+        }
+
+        .dev-credit p {
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 0.95rem;
+            margin-bottom: 10px;
+        }
+
+        .dev-credit a {
+            color: var(--emerald);
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.2rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            transition: all 0.3s ease;
+        }
+
+        .dev-credit a:hover {
+            color: var(--emerald-light);
+            gap: 15px;
+        }
+
+        .dev-credit i {
+            font-size: 1.5rem;
+        }
+
         /* WHATSAPP */
         .whatsapp-btn {
             position: fixed;
@@ -1329,8 +1375,19 @@
                 <p>info@svbeautytime.com</p>
             </div>
         </div>
+
+        <!-- HANUNOVA CREDIT SECTION -->
+        <div class="dev-credit" data-aos="zoom-in" data-aos-duration="1000">
+            <p>🎨 Website Designed & Developed by</p>
+            <a href="https://hanunova.oneapp.dev/" target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-code"></i>
+                <strong>HanuNova</strong>
+                <i class="fas fa-external-link-alt"></i>
+            </a>
+        </div>
+
         <div class="footer-bottom">
-            <p>&copy; 2025 S.V Beauty Time. All Rights Reserved.</p>
+            <p>&copy; 2025 S.V Beauty Time. All Rights Reserved. | Crafted with ❤️ by <a href="https://hanunova.oneapp.dev/" target="_blank" style="color: var(--emerald); text-decoration: none;">HanuNova</a></p>
         </div>
     </footer>
 
